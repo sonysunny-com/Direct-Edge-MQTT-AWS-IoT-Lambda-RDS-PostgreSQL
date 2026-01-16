@@ -2,6 +2,8 @@
 
 End-to-end industrial IoT data ingestion architecture for securely storing edge telemetry in a relational database. Sensor data is published directly from edge devices (MQTT) → AWS IoT Core → Lambda → Amazon RDS (PostgreSQL).
 
+This repo contains a detailed document for setup Direct Edge MQTT → AWS IoT → Lambda → RDS (PostgreSQL).
+
 ## Why this architecture
 - Direct edge-to-cloud communication (MQTT over TLS + X.509)
 - Secure device authentication and fine-grained policies
@@ -79,4 +81,4 @@ MIT License — free to use, modify, and adapt.
 ## Contact / Services
 Firmware • Cloud • Software • IoT Architecture
 👉 https://sonysunny.com
-👉 https://sonysunny.com/services
+👉 https://sonysunny.com/#services
